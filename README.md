@@ -32,7 +32,7 @@ https://jsonplaceholder.typicode.com/users
 ## Installation
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Ruhena-Akter/user_management_app.git
 cd user_management_app
 npm install
 npm run dev
