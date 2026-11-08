@@ -1,16 +1,39 @@
-# React + Vite
+# User Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple User Management App built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetch users from API.
+- Display user name, email, and phone.
+- Search users by name or email.
+- View user details.
+- Add and remove favorite users.
+- Save favorite users in Local Storage.
+- Manage state using Zustand.
+- Show total users and favorite users count.
+- Responsive design for mobile and desktop.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Zustand
+- React Hooks (useState, useEffect)
+- Local Storage
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://jsonplaceholder.typicode.com/users
+
+## Installation
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd user_management_app
+npm install
+npm run dev
+```
